@@ -1,7 +1,7 @@
 def menu():
-	print("[1] Option 1")
-	print("[2] Option 2")
-	print("[0] Exit")
+	print("[1] Nouvelle partie")
+	print("[2] Options")
+	print("[0] Quitter")
 
 menu()
 option = int(input("Tapez votre choix:"))
