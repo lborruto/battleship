@@ -1,1 +1,23 @@
-test
+def menu():
+	print("[1] Option 1")
+	print("[2] Option 2")
+	print("[0] Exit")
+
+menu()
+option = int(input("Tapez votre choix:"))
+
+while option !=0:
+	if option == 1:
+		#do option 1
+		print ("Option 1 à été choisie")
+	elif option == 2:
+		#do option 2
+		print ("Option 2 à été choisie")	
+	else:
+		print("Option invalide.")
+
+	print()
+	menu()
+	option = int(input("Tapez votre choix:"))
+
+print("Merci et a bientot!")
